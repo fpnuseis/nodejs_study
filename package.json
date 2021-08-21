@@ -1,0 +1,38 @@
+{
+  "name": "nodejs_study",
+  "version": "1.0.0",
+  "description": "nodejs_study",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon ./server/server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpnuseis/nodejs_study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpnuseis/nodejs_study/issues"
+  },
+  "homepage": "https://github.com/fpnuseis/nodejs_study#readme"
+}
